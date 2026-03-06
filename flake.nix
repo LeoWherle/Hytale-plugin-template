@@ -63,7 +63,7 @@
           mvnJdk = jdk;
           mvnParameters = "-B package -DskipTests";
 
-          mvnHash = "sha256-2Sbkc3O+SAJqZJF203HIj7dpRauH0ZS6U4m/MRinEz8=";
+          mvnHash = "sha256-2Sbkc3O+SAJqZJF203HIj7dpRauH0ZS6U4m/MRinEz8="; # update regularly
 
           nativeBuildInputs = [maven jdk];
 
@@ -84,7 +84,7 @@
           };
         };
 
-        # For development only
+        # For development only (nix run . -- server target)
         apps.default = {
           type = "app";
           program = let
