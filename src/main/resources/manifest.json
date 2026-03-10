@@ -1,14 +1,14 @@
 {
-    "Group": "dev.ninesliced",
-    "Name": "Hycrates",
-    "Version": "1.0.0",
-    "Description": "TODO",
-    "Authors": [],
-    "Website": "https://ninesliced.com",
-    "ServerVersion": "2026.02.19-1a311a592",
-    "Dependencies": {},
-    "OptionalDependencies": {},
-    "DisabledByDefault": false,
-    "IncludesAssetPack": false,
-    "Main": "dev.ninesliced.Hycrates"
+  "Group": "dev.xenap",
+  "Name": "MyPlugin",
+  "Version": "1.0.0",
+  "Description": "TODO",
+  "Authors": [],
+  "Website": "https://xenap.dev",
+  "ServerVersion": "2026.03.05-9fdc5985d",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "Main": "dev.xenap.MyPlugin"
 }

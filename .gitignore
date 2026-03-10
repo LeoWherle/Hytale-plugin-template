@@ -1,3 +1,7 @@
 server/
 
 target/
+
+.project
+.settings/
+.classpath
